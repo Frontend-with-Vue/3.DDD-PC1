@@ -21,8 +21,9 @@ app.use(PrimeVue, {
         }
     }
 });
-app.mount('#app')
 app.component('pv-button', Button);
 app.component('pv-toolbar', Toolbar);
 app.component('pv-toast', Toast);
 app.component('pv-card', Card);
+
+app.mount('#app');

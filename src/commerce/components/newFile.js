@@ -1,4 +1,4 @@
-import { fetchDataWinners } from "../services/api.service.js";
+import { fetchDataWinners } from "../services/fake-lottery-api.service.js";
 import { onMounted } from "vue";
 import { winnerList } from "./winner-list.component.vue.js";
 

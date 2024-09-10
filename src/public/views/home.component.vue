@@ -1,17 +1,12 @@
 <script setup>
   import Footer from "../components/footer.component.vue";
+  import Header from "../components/header.component.vue";
   import WinnerList from "../../commerce/components/winner-list.component.vue";
 </script>
 
 <template>
   <div class="container">
-    <header>
-      <pv-toolbar>
-        <template #start>
-          <h4>Fake Lottery API Showcase</h4>
-        </template>
-      </pv-toolbar>
-    </header>
+    <Header/>
     <main>
       <WinnerList></WinnerList>
     </main>
